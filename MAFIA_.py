@@ -1,9 +1,7 @@
 import discord, asyncio, math, random
 from discord.ext import commands
 
-token="???"
-game=discord.Game("마피아")
-bot=commands.Bot(command_prefix="!", status=discord.Status.online, activity=game, help_command=None)
+bot=commands.Bot(command_prefix="(")
 on_game=False
 stage=""
 gamers=[]
